@@ -1,0 +1,77 @@
+package automovil;
+
+public class Automovil {
+private String marca;
+private String modelo;
+private String color;
+private Llanta movilidad;
+private Chasis soporte;
+private Motor energia;
+
+    public Automovil() {
+    }
+
+    public Automovil(String marca, String modelo, String color, Llanta movilidad, Chasis soporte, Motor energia) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.color = color;
+        this.movilidad = movilidad;
+        this.soporte = soporte;
+        this.energia = energia;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public Llanta getMovilidad() {
+        return movilidad;
+    }
+
+    public void setMovilidad(Llanta movilidad) {
+        this.movilidad = movilidad;
+    }
+
+    public Chasis getSoporte() {
+        return soporte;
+    }
+
+    public void setSoporte(Chasis soporte) {
+        this.soporte = soporte;
+    }
+
+    public Motor getEnergia() {
+        return energia;
+    }
+
+    public void setEnergia(Motor energia) {
+        this.energia = energia;
+    }
+    public void encender(){
+        System.out.println("encendiendo..... brrrrrr");
+    }
+    public void apagar(){
+        System.out.println("apagando.....");
+    }
+    
+}
